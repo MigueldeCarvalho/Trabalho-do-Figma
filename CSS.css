@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap%27'); /*Importando a fonte para utilizar no Vscode*/
+
+body{
+    background-color:#23272A; /*A propriedade background-color define a cor de fundo de um elemento.*/
+    background-size:100%; /*A propriedade background-size especifica o tamanho das imagens de fundo.*/
+}
+
+.rodape{
+    position: absolute; /*Especifica o medoto utilizado para posicionar um elemento*/
+    left: 35px; /*Fornecendo as informações para a tag de cima posicionar o elemento*/
+    top: 838px; /*Fornecendo as informações para a tag de cima posicionar o elemento*/
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    font-size: 12px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;   
+}
+
+.botao_rodape{
+    width: 92px;
+    height: 68px;
+    background-color: #C4C4C4;
+    border:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.rodape_tela1{
+    position: absolute;
+    left: 74px;
+    top: 610px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 8px;
+
+}
+
+
+.imagem_tela1{
+    margin-top: 145px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.botao1_tela1{
+    width: 270px; /*A propriedade width define a largura de um elemento.*/
+    height: 40px; /*A propriedade height define a altura de um elemento.*/
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+    background-color:#4286F5;
+    border: #4286F5 5px solid; /*A propriedade border é uma propriedade abreviada para: largura da borda, estilo de borda, cor da borda*/
+    border-radius: 20px; /*A propriedade border-radius define o raio dos cantos do elemento.*/
+}
+.botao2_tela1{
+    width: 270px;
+    height: 40px;
+    color: #865151;   
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+    border: #FFFFFF 5px solid;
+    border-radius: 20px;
+}
+.botao3_tela1{
+    border: none;/*Propriedade para tirar a borda do botao*/
+    width: 200px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #23272A;
+    font-size: 13px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.linha1_tela2{
+    color: white;
+    font-size: 8px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: 20px;
+}
+
+.botao1_tela2{
+    margin-left: 3px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 130px;
+    height: 20px;
+}
+
+.linha2_tela2{
+    margin-top:60px;
+    gap: 15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+.botoes_sugestao_tela2{
+    margin-left: 10px;
+    width:75px;
+    height:75px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.imagem_tela2{
+    margin-top:60px;
+    height: 100px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.famosos_tela2{
+    margin-top:200px;
+    margin-left:10px;
+}
+
+
+.img_tela3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaob_tela3{
+    width: 300px;
+    height: 40px;
+    color: #C5C5C5;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'ABeeZee', sans-serif;
+    background-color: White;
+    display: flex;
+    margin-top: 20px;
+}
+.categorias_tela3{
+    width:275px;
+    height:62px;
+    border:1px solid #000;
+    border-radius: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ABeeZee', sans-serif;
+    background-color: #FFF849;
+    margin-left: 55px; /*A propriedade margin-left define a margem esquerda de um elemento.*/
+    margin-top: 20px;
+    font-size:48px;
+}
+.caixa1_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    text-align: center; /*A propriedade text-align especifica o alinhamento horizontal do texto em um elemento.A propriedade center é no centro*/
+    justify-content: center;
+    align-items: left;
+    float: left;/*A propriedade float especifica se um elemento deve flutuar para a esquerda, direita ou nada.*/
+    
+}
+.caixa2_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    float: left;
+}
+.caixa3_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    float: left;
+}
+.caixa4_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    float: left;
+}
+.caixa5_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    float: left;
+}
+.caixa6_tela3{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    float: left;
+}
+
+.botao_tela3{
+    width: 170px;
+    height: 170px;
+    border: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.titulo_tela4{
+    margin-top:20px; /*A margin-top é uma propriedade que define a margem superior de um elemento */
+    display:flex; /*O display é uma propriedade especifica o comportamento de exibição (o tipo de caixa de renderização) de um elemento.A propriedade flex define o comprimento flexível em itens flexíveis.*/
+    flex-direction:column; /*A propriedade flex-direction especifica a direção dos itens flexíveis.A propriedade column e para coluna*/
+    justify-content:center; /*A propriedade justify-content alinha os itens do container flexível quando os itens não utilizam todo o espaço disponível no eixo principal (horizontal).A propriedade center é no centro*/
+    align-items:center; /*A propriedade align-items especifica o alinhamento padrão para itens dentro do contêiner flexível.A propriedade center é no centro */
+    font-size:36px; /*A propriedade font-size define o tamanho de uma fonte.*/
+    color:white; /*A propriedade color especifica a cor do texto.*/
+    font-family: 'ABeeZee', sans-serif; /*A propriedade font-family especifica a fonte de um elemento.*/
+}
+.principal_tela4{
+    margin-top:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    color:white;
+    font-family:'ABeeZee', sans-serif;
+}
+.img_tela4{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.botao4_tela4{
+    width: 92px; /*A propriedade width define a largura de um elemento.*/
+    height: 68px; /*A propriedade height define a altura de um elemento.*/
+    background-color: #C4C4C4;
+    border:none; /*A propriedade border é uma propriedade abreviada para: largura da borda, estilo de borda, cor da borda*/
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.topo_tela5{
+    margin-top: 66px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 36px;
+    color: white;
+    font-family:'ABeeZee', sans-serif;
+}
+
+.texto_tela5{
+    margin-left: 10px;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center      ;
+    font-size: 34px;
+    color: white;
+    font-family:'ABeeZee', sans-serif;
+    gap: 15px;
+}
+
+
+.perfil_tela5{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.principal_tela5{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size: 12px;
+    color: #FFFF;
+    font-family: 'ABeeZee', sans-serif;
+    gap: 15px;
+}
+
+#h2_tela5{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size: 14px;
+    color: #FFFF;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.botao_descricao_tela5{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size: 36px;
+    color: #FFFF;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.icone_principal_tela5 {
+    width: 92px;
+    height: 68px;
+    border:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    background-color: #23272A;
+    color: #FFFF;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 36px;
+}
+
+.botao_tela5{
+    border:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    background-color: #23272A;
+    color: #FFFF;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 36px;
+}
+.botao3_tela5{
+    border:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    background-color: #23272A;
+    color: #CC1E1E;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
+}
