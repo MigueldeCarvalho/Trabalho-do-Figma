@@ -381,3 +381,32 @@ body{
     font-family: 'ABeeZee', sans-serif;
     font-size: 18px;
 }
+
+a {
+    color: #CC1E1E;
+    text-decoration: none;
+    
+  }
+  
+a:link {
+    color: #CC1E1E;
+  }
+  
+  
+  a:visited {
+    color: #CC1E1E;
+  }
+  
+ 
+  a:hover {
+    color: none;
+  }
+  
+  a:active {
+    color: none;
+  }
+
+  .configfonte{
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+  }

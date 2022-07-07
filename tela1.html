@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br"><!--Declarar o idioma padrão do texto na página-->
+<html lang="pt-br">
+<!--Declarar o idioma padrão do texto na página-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela1</title><!--Utilizado para renomear o titulo da pagina*/-->
-    <link rel="stylesheet" href="CSS.css"><!--Link é utilizado para juntar o html com a pagina de estilos*/-->
-    <link rel="icon" href="vapt.png" type="icon"><!--Utilizado para colocar icone na pagina-->
-   
+    <title>Tela1</title>
+    <!--Utilizado para renomear o titulo da pagina*/-->
+    <link rel="stylesheet" href="CSS.css">
+    <!--Link é utilizado para juntar o html com a pagina de estilos*/-->
+    <link rel="icon" href="vapt.png" type="icon">
+    <!--Utilizado para colocar icone na pagina-->
+
 </head>
 
 <body>
 
     <div class="imagem_tela1">
         <!--A tag div é aplicado para definir uma divisão do documento.A tag classsão uma forma de identificar um grupo de elementos. Através delas, pode-se atribuir formatação a vários elementos de uma vez-->
-        <img src="vapt.png" alt="pizza" width="321" height="321"><!--witdh e height são utilizados para definir altura e largura da imagem-->
+        <img src="vapt.png" alt="pizza" width="321" height="321">
+        <!--witdh e height são utilizados para definir altura e largura da imagem-->
         <!-- A tag img define uma imagem.O parâmetro src é o caminho do arquivo de imagem.A tag alt denota um texto a ser exibido quando o mouse passa em cima da imagem ou quando a imagem não pode ser exibida. Também é utilizado por navegadores de modo texto no lugar da imagem A tag width denota o tamanho absoluto da altura da imagem em pixels e a tag height denota o tamanho absoluto da largura da imagem em pixels-->
     </div>
 
     <div class="rodape_tela1">
-        <button class="botao1_tela1"><img src="google.png" alt="google" width="24" height="24">Entrar com o
-            Google</button>
+        <a href="cadastro.html">
+            <button class="botao1_tela1">Cadastro</button>
+        </a>
         <!--A tag button define um botão clicavel e nessa tag button pode ter uma class e uma tag de imagem-->
-        <button class="botao2_tela1">Outras opções</button>
-        <button class="botao3_tela1">Continuar como convidado</button>
+        <a href="login1.php">
+            <button class="botao2_tela1">Login</button>
+        </a>
     </div>
 
 </body>

@@ -1,0 +1,47 @@
+body{
+    background-color:#23272A; /*A propriedade background-color define a cor de fundo de um elemento.*/
+    background-size:100%; /*A propriedade background-size especifica o tamanho das imagens de fundo.*/
+}
+
+.lanches{
+    text-decoration: underline;
+    color: white;
+    font-size: 100px;
+    margin-left:50px;
+}
+
+.hamb1 {
+    margin-top:50px;
+    width: 350px;
+    height: 75px;
+    padding: 10px;
+    margin-left: 20px;
+    border: solid 1px gray;
+    display:inline-block;
+    vertical-align:top
+}
+
+.textoo{
+    color:white;
+    font-size: 25px;
+    margin-left:20px
+}
+
+img, p{
+    display: inline-block;
+}
+
+.container{
+    margin-top:60px;
+    display: flex;
+    align-items: center;
+    border: solid 5px;
+}
+
+.botao1, .botao2, .botao3, .botao4{
+    margin-left: 10px;
+    background-color: #23272A;
+    color: green;
+    border: none;
+    font-size: 20px;
+}

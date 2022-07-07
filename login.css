@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+    color: #FFFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    line-height: 1.2;
+    background: darkblue;
+  }
+
+hr{
+
+  border: 1.5px solid #FFFF;
+  width: 316px;
+  border-radius: 2px;
+
+}
+
+h1{
+  font-size: 47px;
+}
+
+#voltar{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+
+.login_div{
+    width: 428px;
+    height: 926px;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23272A;
+    margin: auto;
+    color:#FFFF;
+ 
+   
+}
+
+#formulario_login {
+  gap:20px ;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.campos_login{
+margin-top: 20px;
+margin-left: 10px;
+
+}
+
+.inputemail{
+  height: 21px;
+  width: 240px;
+  border: none;
+  background-color: #23272A;
+}
+
+.inputsenha{
+  height: 21px;
+  width: 240px;
+  border: none;
+  background-color: #23272A;
+}
+
+.btn_login{
+  height: 40px;
+  width: 316px;
+  border: none;
+  border-radius: 14px;
+  background-color: #4286F5;
+  font-size: 28px;
+}
+
+#email{
+  font-size: 15px;  
+  margin-left: 20px;
+}
+
+#senha{
+  font-size: 15px;
+  margin-left: 18px;
+}
+
+#email_img{
+  margin-left: 18px;
+}
+
+#senha_img{
+  margin-left: 16px;
+}

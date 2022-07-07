@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background: #000000;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 6px;
+  background: #f4f4f4;
+  margin: 5px 0;
+}
+
+label{
+  margin-top: 5px;
+}
+
+
+
+#titulo{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 2rem 3rem;
+
+}
+
+#formulario {
+  padding: 2rem;
+  background: #f4f4f4;
+  border-radius: 10px;
+  background-color: #23272A;
+}
+
+#voltar{
+  display: flex;
+  align-self: flex-start;
+}
+
+#formulario label {
+  display: block;
+}
+
+#formulario input[type="text"] {
+  width: 100%;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  opacity: 0.85;
+
+}
+
+#formulario input[type="password"] {
+  width: 100%;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  opacity: 0.85;
+
+}
+
+#nome {
+  background-image: url(nome.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+#email {
+  background-image: url(email.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+#senha {
+  background-image: url(senha.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+#telefone {
+  background-image: url(telefone.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+#cpf {
+  background-image: url(cpf.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+#endereco {
+  background-image: url(endereco.png);
+  background-repeat: no-repeat;
+  background-position: 10px 2px;
+
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: cornflowerblue;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+.bg-dark {
+  background: cornflowerblue;
+  color: #fff;
+}
+
